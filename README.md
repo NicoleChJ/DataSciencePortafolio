@@ -11,7 +11,9 @@ This repository is continually evolving, and I welcome any feedback for improvem
 **Contact:**  <a href="https://www.linkedin.com/in/your-profile">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="15" height="15">
 </a> https://www.linkedin.com/in/nicolechavesj/
-### Skills
+### Technical Skills
+Python | SQL | Scikit-learn | Keras | R | GenAI | LLMs | HuggingFace | ChatGPT | Claude | Langchain | Fine-tuning LLMs | RAG | Prompt Engineering | NLP | Tools LLM | Tensorflow | Git| Data Pipelines | Data Analysis | Predictive Modelling | Data Mining | Statistical Algorithms | Machine Learning | GradioUI | Tableau | Power BI | Azure Cloud | API| ETL | Html | Css | Typescript | Angular
+
 
 ### Courses and Certifications
 Continuous learning is one of my passions. Below is a list of courses I have completed over time that are focused on Artificial Intelligence, to further expand and refine my skill set:
