@@ -13,6 +13,7 @@ This project demonstrates:
 
 **Model used**
 llama3.2
+
 **Benefits:**
 1. No API charges - open-source
 2. Data doesn't leave your box
