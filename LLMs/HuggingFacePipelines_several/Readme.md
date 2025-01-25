@@ -1,6 +1,6 @@
 
 # HuggingFace Pipelines
-The Hugging Face transformers library is an incredibly versatile and powerful tool for natural language processing (NLP).TThis project demonstrates how to leverage Hugging Face in inference mode, using various tasks such as Sentiment Analysis, Text Classification, Named Entity Recognition (NER), Text Generation, Question Answering with Context, and Summarization with open-source models running locally. But you can also use Hugging Face Inference Server (from huggingface_hub import InferenceApi), available at a cost, it allows you to run these models in a cloud environment on Hugging Face's infrastructure, meaning the computation is done remotely on those servers, not on your local machine.
+The Hugging Face transformers library is an incredibly versatile and powerful tool for natural language processing (NLP).This project demonstrates how to leverage Hugging Face in inference mode, using various tasks such as Sentiment Analysis, Text Classification, Named Entity Recognition (NER), Text Generation, Question Answering with Context, and Summarization with open-source models running locally. But you can also use Hugging Face Inference Server (from huggingface_hub import InferenceApi), available at a cost, it allows you to run these models in a cloud environment on Hugging Face's infrastructure, meaning the computation is done remotely on those servers, not on your local machine.
 
 
 This project demonstrates:
