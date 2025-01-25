@@ -12,7 +12,7 @@ This repository is continually evolving, and I welcome any feedback for improvem
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="15" height="15">
 </a> https://www.linkedin.com/in/nicolechavesj/
 ### Technical Skills
-Python | SQL | Scikit-learn | Keras | R | GenAI | LLMs | HuggingFace | ChatGPT | Claude | Langchain | Fine-tuning LLMs | RAG | Prompt Engineering | NLP | Tools LLM | Tensorflow | Git| Data Pipelines | Data Analysis | Predictive Modelling | Data Mining | Statistical Algorithms | Machine Learning | GradioUI | Tableau | Power BI | Azure Cloud | API| ETL | Html | Css | Typescript | Angular
+Python | SQL |Pandas| Numpy | Matplotlib| Scikit-learn | Keras | R | GenAI | LLMs | HuggingFace | ChatGPT | Claude | Langchain | Fine-tuning LLMs | RAG | Prompt Engineering | NLP | Tools LLM | Tensorflow | Git| Data Pipelines | Data Analysis | Predictive Modelling | Data Mining | Statistical Algorithms | Machine Learning | GradioUI | Tableau | Power BI | Azure Cloud | API| ETL | A/B Testing and Experimentation Design| Html | Css | Typescript | Angular
 
 
 ### Courses and Certifications
