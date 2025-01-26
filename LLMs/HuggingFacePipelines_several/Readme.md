@@ -8,6 +8,7 @@ This project demonstrates:
 - Application of models based on the transformer architecture.
 - Secure handling of sensitive information using environment variables (.env), a common practice in local development. This prevents sensitive data, such as API tokens or database credentials, from being committed to version control (e.g., Git). To enhance security, the .env file is often added to .gitignore to avoid accidental exposure. 
 - Error handling for missing or incorrectly set tokens, ensuring smooth operation.
+- Suppress warnings from Hugging Face transformers library
 
 **Model used**
 The models are configured with default settings in most cases, but users have the flexibility to select and customize their choice of model. The following models were applied for specific this specific tasks:
