@@ -1,15 +1,16 @@
 
-# Web page summarization 
-The goal of this project is to build a tool that takes a webpage URL as input and provides a summarized version of its contents, using an Open-Source model (Llama 3.2) running locally via Ollama.
+# Web page Broshure 
+The goal of this project is to build a tool that takes a webpage URL and the name of the company as input and provides a useful structure information that can fill a broshure, using an Open-Source model (Llama 3.2) running locally via Ollama.
 
 This project demonstrates:
-- Web Scraping and Content Extraction: The ability to extract a webpage's title and text using BeautifulSoup, with error handling for failed HTTP requests.
+- Web Scraping, Content Extraction, and Cleaning: The ability to extract a webpage's title, text, json and url using BeautifulSoup, with error handling for failed HTTP requests.
 - Ollama Model Integration: Three methods of interacting with the Ollama model running on a local server to summarize the webpage’s content:
     1) Direct HTTP call via requests
     2) Using the Ollama Python package
     3) Connecting via OpenAI API-style calls for flexibility.
-- Markdown Formatting: The formatted summarized output is displayed in a clean and readable Markdown format, making it suitable for presentations or reports.
-- Error handling in the web scraping process, this  ensures smooth execution even in the case of invalid URLs.
+- Markdown Formatting: The formatted summarized output is displayed in a clean and readable Markdown format, making it suitable for presentations or reports?????
+- Error handling on several parts
+- One shot prompting example and Chaining (Multi step prompting).
 
 **Model used**
 llama3.2
