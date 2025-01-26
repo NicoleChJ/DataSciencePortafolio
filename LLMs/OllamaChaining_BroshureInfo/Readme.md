@@ -8,7 +8,7 @@ This project demonstrates:
     1) Direct HTTP call via requests
     2) Using the Ollama Python package
     3) Connecting via OpenAI API-style calls for flexibility.
-- Markdown Formatting: The formatted summarized output is displayed in a clean and readable Markdown format, making it suitable for presentations or reports?????
+- Markdown Formatting: The formatted summarized output is displayed in a clean and readable Markdown format, making it suitable for presentations or reports.
 - Error handling on several parts
 - One shot prompting example and Chaining (Multi step prompting).
 
