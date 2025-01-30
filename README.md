@@ -3,7 +3,7 @@ Throughout my professional journey, I quickly understood the importance of docum
 
 As this portfolio expands, it will serve as a comprehensive record of all the Data Science and Data Analysis projects I have undertaken—ranging from academic assignments and self-directed learning to the practical application of skills in professional settings. Some projects are complete, others are ongoing, and a few are still in the planning phase.
 
-This repository is a work in progress, and I invite any feedback for improvement.
+*This repository is a work in progress*, and I invite any feedback for improvement.
 
 
 
