@@ -1,9 +1,10 @@
 
-# Chatbot with Gradio
-This project builds an interactive chatbot powered by OpenAI's GPT-4o-mini, a lighter version of ChatGPT. Initially, the chatbot serves as a general assistant responding to user queries. In the second phase, it transforms into a virtual sales assistant for a clothing store, helping customers and encouraging purchases.
+# Flight Assistant with Gradio
+This project implements an interactive chatbot powered by OpenAI's GPT-4o-mini, a lightweight version of ChatGPT. Initially, the chatbot functions as a general assistant, responding to user queries. In the second phase, it is enhanced with tools, enabling it to fetch real-time flight prices—capabilities it previously lacked.
 
 This project demonstrates:
 - OpenAI Model Integration,leveraging OpenAI’s cloud-based AI model for real-time responses.
+- Use of tools, so extends functionality by allowing the LLM to call external functions, such as retrieving flight prices.
 - Load environment variables
 - Send the history message in OpenAI format: Gradio already setup for us: 
 [
@@ -13,9 +14,13 @@ This project demonstrates:
     {"role": "user", "content": "the new user prompt"},
 ]
 - Use Gradio as a chat interface with support for light and dark modes. Deploy it locally or generate a public URL, which remains valid for 72 hours. For free permanent hosting and GPU upgrades, run gradio deploy from the terminal in the working directory to deploy the application to Hugging Face Spaces.
-- Error handling.
 
-![Chatbot Preview](gradiochatbot.png)
+
+![Chatbot Preview](gradioUI.png)
+
+With tool
+
+![Chatbot Preview2](gradioUITools.png)
 
 **Model used**
 gpt-4o-mini
