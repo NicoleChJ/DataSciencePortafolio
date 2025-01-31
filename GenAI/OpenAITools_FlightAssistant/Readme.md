@@ -1,11 +1,12 @@
 
 # Flight Assistant with Gradio
-This project implements an interactive chatbot powered by OpenAI's GPT-4o-mini, a lightweight version of ChatGPT. Initially, the chatbot functions as a general assistant, responding to user queries. In the second phase, it is enhanced with tools, enabling it to fetch real-time flight prices—capabilities it previously lacked.
+This project implements an interactive chatbot powered by OpenAI's GPT-4o-mini, DALL·E 3, and TTS-1 with Onyx voice. Initially, the chatbot functions as a general assistant, responding to user queries. In the second phase, it is enhanced with tools that allow it to fetch real-time flight prices, a feature it previously lacked. The third phase transforms the assistant into a multimodal experience, where it not only displays text but also plays audio responses and shows relevant images if specific cities are mentioned in the conversation.
 
 This project demonstrates:
 - OpenAI Model Integration,leveraging OpenAI’s cloud-based AI model for real-time responses.
 - Use of tools, so extends functionality by allowing the LLM to call external functions, such as retrieving flight prices.
 - Load environment variables.
+- Creating an engaging multimodal experience by adding audio and image output.
 - Send the history message in OpenAI format: Gradio already setup for us: 
 
 [
@@ -24,8 +25,12 @@ With tool
 
 ![Chatbot Preview2](gradioUITools.png)
 
+As multimodal
+
+![Chatbot Preview3](multimodal.png)
+
 **Model used**
-gpt-4o-mini
+gpt-4o-mini,  dall-e-3 and tts-1 with onyx voice.
 
 **Benefits:**
 1. The higest power the market offers as is a Frontier LLM model
@@ -33,6 +38,22 @@ gpt-4o-mini
 **Disadvantages:**
 1. API charges
 2. Data leaves your box
+
+## Audio Setup
+For Mac users: Open a new command prompt and run this to make sure it's installed OK
+`ffmpeg -version`, if not:
+
+1. Install homebrew if you don't have it already by running this in a Terminal window and following any instructions:  
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+2. Then install FFmpeg with `brew install ffmpeg`
+
+3. Verify your installation with `ffmpeg -version` and if everything is good, within Jupyter Lab do Kernel -> Restart kernel to pick up the changes
+
+4. If did not work manually  one quick solution is to set the PATH in your script: 
+import os
+os.environ['PATH'] = '/opt/homebrew/bin:' + os.environ['PATH']
+
 
 ## OpenAI Setup
 
