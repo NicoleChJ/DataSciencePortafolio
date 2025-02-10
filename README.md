@@ -1,10 +1,9 @@
 # Data Science Portafolio
-Throughout my professional journey, I quickly understood the importance of documenting the technical insights from the techniques I applied and their interconnections (I still keep my old green notebook). However, it took me a while to realize the value of having a structured portfolio to track my progress in Artificial Intelligence. This repository not only helps me organize and showcase my knowledge but also represents the comprehensive portfolio I’ve always aimed to create.
+Throughout my professional journey, I quickly recognized the importance of documenting technical insights, the methodologies I applied, and how they interconnect (I still have my old green notebook). However, it took me longer to appreciate the significance of a well-structured portfolio—not just as a record of progress, but as a means to refine and showcase my expertise in Artificial Intelligence and Data Science. This repository not only helps me organize and showcase my knowledge but also represents the comprehensive portfolio I’ve always aimed to create.
 
-As this portfolio expands, it will serve as a comprehensive record of all the Data Science and Data Analysis projects I have undertaken—ranging from academic assignments and self-directed learning to the practical application of skills in professional settings. Some projects are complete, others are ongoing, and a few are still in the planning phase.
+As this portfolio evolves, it will serve as a curated collection of my Data Science and Data Analysis projects, spanning academic work, self-directed learning,  to the practical application of skills in professional settings. Some projects are fully developed, others are ongoing, and a few are in the conceptual stage. Due to confidentiality agreements, I will not include proprietary work from previous companies, but I will incorporate generalized insights and approaches that demonstrate my expertise.
 
 *This repository is a work in progress*, and I invite any feedback for improvement.
-
 
 
 **Author:** Nicole Chaves Jiménez <br>
@@ -33,3 +32,5 @@ Below is a curated list of some of the courses I have completed over time, each 
 This project is licensed under the MIT License. You are free to use the code and resources for educational or personal purposes with citation or reference to the original code and resources used.
 ### Sources
 TBD
+
+
