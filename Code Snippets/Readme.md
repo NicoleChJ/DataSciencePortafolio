@@ -7,7 +7,7 @@ When building a model, several steps are typically required. Depending on your d
 #### EDA
 Common code that you use to give yourself a sense of the data.
 
-#### Data cleaning
+#### Data Cleaning
 Includes standard preprocessing techniques for cleaning datasets and preparing them for modeling.
 
 - Statistics/Remove Outliers:
