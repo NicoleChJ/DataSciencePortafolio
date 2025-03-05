@@ -18,10 +18,27 @@ Includes standard preprocessing techniques for cleaning datasets and preparing t
 
 
 #### Feature Engineering
-- Feature Scaling: Some machine learning algorithms perform better or converge faster when features are on a similar scale 
-- Feature Enconding
-- Feature Selection
+
+- Feature Creation
+- Feature Selection.
+- Feature Extraction.
+- Feature Scaling and normalization: Some machine learning algorithms perform better or converge faster when features are on a similar scale 
+- Feature Enconding.
+- Feature Importance 
+
+1. Workflow Recommendations: Understand domain context, start with simple transformations,validate each feature's impact,avoid data leakage,use cross-validation and consider cosmputational complexity
+
+2. Common Pitfalls: Overfitting through excessive feature engineering,introducing multicollinearity, losing interpretability and computational overhead. 
+
+So normally with the 4 first steps you can start smal and see performance.
+
+#### Data Preprocessing: 
+Should focus on final data preparation tasks that are not directly related to feature transformation but rather making the dataset ready for modeling:
+- Data Splitting
+- Handling Imbalance: Imbalanced handling should be applied after splitting (to avoid information leakage) for clasification problems and just on training data.
+
+#### Model Selection and Training
 
 
-#### Data Split
+
 
