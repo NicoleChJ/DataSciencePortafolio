@@ -2,7 +2,7 @@
 This folder contains reusable code that can be utilized across multiple projects. The provided code snippets demonstrate how to implement these utilities through simple examples.
 
 ## Sections
-When building a model, several steps are typically required. Depending on your data, model type, and objective, some steps may require more in-depth processing, while others might be optional. Each folder in this repository contains code specifically designed for a particular stage of the process.
+When building a clasical model, several steps are typically required. Depending on your data, model type, and objective, some steps may require more in-depth processing, while others might be optional. Each folder in this repository contains code specifically designed for a particular stage of the process.
 
 #### EDA
 Common code that you use to give yourself a sense of the data.In this section you will find:
@@ -18,7 +18,7 @@ Includes standard preprocessing techniques for cleaning datasets and preparing t
 
 
 #### Feature Engineering
-
+So normally with the 4 first steps you can start small and see performance.
 - Feature Creation
 - Feature Selection.
 - Feature Extraction.
@@ -30,14 +30,20 @@ Includes standard preprocessing techniques for cleaning datasets and preparing t
 
 2. Common Pitfalls: Overfitting through excessive feature engineering,introducing multicollinearity, losing interpretability and computational overhead. 
 
-So normally with the 4 first steps you can start smal and see performance.
-
 #### Data Preprocessing: 
 Should focus on final data preparation tasks that are not directly related to feature transformation but rather making the dataset ready for modeling:
 - Data Splitting
 - Handling Imbalance: Imbalanced handling should be applied after splitting (to avoid information leakage) for clasification problems and just on training data.
+- Stationarity: Techniques to apply for time series that are non-stationary,
 
 #### Model Selection and Training
+- Moldel Types
+- Hyperparameter tunning
+
+
+
+
+
 
 
 
