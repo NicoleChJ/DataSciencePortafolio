@@ -1,5 +1,5 @@
 # Common Code Repository
-This folder contains reusable code that can be utilized across multiple projects. The provided code snippets demonstrate how to implement these utilities through simple examples.
+This folder contains reusable code that can be utilized across multiple projects, most of them classical models. The provided code snippets demonstrate how to implement these utilities through simple examples.
 
 ## Sections
 When building a clasical model, several steps are typically required. Depending on your data, model type, and objective, some steps may require more in-depth processing, while others might be optional. Each folder in this repository contains code specifically designed for a particular stage of the process.
@@ -39,6 +39,8 @@ Should focus on final data preparation tasks that are not directly related to fe
 #### Model Selection and Training
 - Moldel Types
 - Hyperparameter tunning
+
+#### Model Evaluation 
 
 
 
