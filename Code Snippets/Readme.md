@@ -37,8 +37,9 @@ Should focus on final data preparation tasks that are not directly related to fe
 - Stationarity: Techniques to apply for time series that are non-stationary,
 
 #### Model Selection and Training
-- Moldel Types
-- Hyperparameter tunning
+- Moldel Types: Choose candidate models based on the problem and train models with default hyperparameters to compare performance.
+- Hyperparameter tunning: Optimize the best-performing model and train the model with the best hyperparameters on the full training set.
+- Regularization and Early stopping: prevents overfiting 
 
 #### Model Evaluation 
 
