@@ -1,5 +1,5 @@
 # Common Code Repository
-This folder contains reusable code that can be utilized across multiple projects, most of them classical models. The provided code snippets demonstrate how to implement these utilities through simple examples.
+This folder contains reusable code that can be utilized across multiple projects, most of them for classical models. The provided code snippets demonstrate how to implement these utilities through simple examples.For a more detail explanation, please refer to the specific file.
 
 ## Sections
 When building a clasical model, several steps are typically required. Depending on your data, model type, and objective, some steps may require more in-depth processing, while others might be optional. Each folder in this repository contains code specifically designed for a particular stage of the process.
@@ -45,6 +45,14 @@ Should focus on final data preparation tasks that are not directly related to fe
 - Performance Metrics
 - Model comparision
 
+#### Model Deployment
+This phase ensures that a trained and validated model is integrated into a production environment for real-world use.
+
+- Model Serialization and Packaging: Saving it in a format that can be easily integrated into the production environment, include the preprocessing pipeline used on training data to ensure consistency during inference, implement version control for models and artifacts and create model registry for tracking deployment history
+- Deployment infraestructure:  Make the model available for predictions in a production environment. This can include Docker, Virtual Environments (venv, conda) and model APIs, selection of deployment patterns (batch processing, microservices, edge deployment),Infrastructure as Code (IaC) implementation for reproducible deployments or Cloud-Specific Deployment.
+- Governance and Operations: Documentation (eg trouble shoothing, rollbacks plans), security, scalability, CI/CD pipeline integration for automated deployment.
+
+#### Monitor and Maintainance
 
 
 
