@@ -42,6 +42,9 @@ Should focus on final data preparation tasks that are not directly related to fe
 - Regularization and Early stopping: prevents overfiting 
 
 #### Model Evaluation 
+- Performance Metrics
+- Model comparision
+
 
 
 
