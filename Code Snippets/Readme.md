@@ -22,9 +22,9 @@ So normally with the 4 first steps you can start small and see performance.
 - Feature Creation
 - Feature Selection.
 - Feature Extraction.
-- Feature Scaling and normalization: Some machine learning algorithms perform better or converge faster when features are on a similar scale 
+- Feature Scaling and Normalization: Some machine learning algorithms perform better or converge faster when features are on a similar scale 
 - Feature Enconding.
-- Feature Importance 
+- Feature Importance.
 
 1. Workflow Recommendations: Understand domain context, start with simple transformations,validate each feature's impact,avoid data leakage,use cross-validation and consider cosmputational complexity
 
@@ -46,13 +46,18 @@ Should focus on final data preparation tasks that are not directly related to fe
 - Model comparision
 
 #### Model Deployment
-This phase ensures that a trained and validated model is integrated into a production environment for real-world use.
+This phase ensures that a trained and validated model is integrated into a production environment for real-world use. Review CI-CD notebook.
 
-- Model Serialization and Packaging: Saving it in a format that can be easily integrated into the production environment, include the preprocessing pipeline used on training data to ensure consistency during inference, implement version control for models and artifacts and create model registry for tracking deployment history
-- Deployment infraestructure:  Make the model available for predictions in a production environment. This can include Docker, Virtual Environments (venv, conda) and model APIs, selection of deployment patterns (batch processing, microservices, edge deployment),Infrastructure as Code (IaC) implementation for reproducible deployments or Cloud-Specific Deployment.
-- Governance and Operations: Documentation (eg trouble shoothing, rollbacks plans), security, scalability, CI/CD pipeline integration for automated deployment.
+- Model Serialization and Packaging: Saving the model in a format that can be easily integrated into the production environment and including the preprocessing pipeline used on training data to ensure consistency during inference.
+- Version Control and Model Registry
+- Deployment infraestructure:  Make the model available for predictions in a production environment. This includes: deployment pattern,enviorement management, infraestructure selection and automation & DevOps.
+- Model Governance and Operations: Ensure security, scalability, cost optimization, disaster recovery, and compliance (e.g GDPR, HIPAA). Maintain documentation, including troubleshooting guides and rollback plans.
 
 #### Monitor and Maintainance
+- Retrain periodically: Update models based on new data, performance degradation, or detected drift.
+- Monitoring & Logging:Track model performance, detect data drift, and log predictions using Prometheus, ELK Stack, or MLflow.
+- Continuous Data Integration : Automate new data ingestion and update models dynamically when necessary.
+
 
 
 
